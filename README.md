@@ -1,6 +1,6 @@
 # grunt-init-html
 
-> Create a simple html/css/js project that uses [grunt][] and [bower][].
+> Create a simple html/css/js project that uses grunt and bower.
 
 ## Installation
 
@@ -16,8 +16,6 @@ Once grunt-init is installed, place this template in your ~/.grunt-init/ directo
 ```
 git clone git@github.com:sethvincent/grunt-init-html.git ~/.grunt-init/html
 ```
-
-_(Windows users, see [the documentation][grunt-init] for the correct destination directory path)_
 
 ## Usage
 
