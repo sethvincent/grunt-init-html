@@ -1,6 +1,14 @@
 # grunt-init-html
 
 > Create a simple html/css/js project that uses grunt and bower.
+> Includes Creative Commons BY-SA license by default (easy to remove).
+
+### Template overview:
+ - app.js (empty)
+ - style.css (basic styles included, including media queries that make the .container proper sizes for different devices)
+ - index.html (links to bower dependencies, basic html structure)
+ - Gruntfile.js (watches *.js, *.css, and *.html files and automatically rebuilds dev server on file save)
+ - component.json (default browser dependencies: normalize.css, html5shiv, jquery)
 
 ## Installation
 
