@@ -50,6 +50,7 @@ header {
 
   .inner-wrapper {
     width: 100%;
+    padding: 0px;
   }
 }
 @media only screen and (min-width: 960px) {
