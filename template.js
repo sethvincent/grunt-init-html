@@ -21,6 +21,7 @@ exports.template = function(grunt, init, done){
     init.prompt('author_email'),
     init.prompt('author_url'),
     init.prompt('licenses', 'MIT'),
+    init.prompt('version', '0.1.0'),
     init.prompt('node_version', '>= 0.10.0'),
   ], function(err, props){
     props.keywords = [];
