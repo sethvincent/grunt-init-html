@@ -21,12 +21,12 @@ exports.template = function(grunt, init, done){
     init.prompt('author_email'),
     init.prompt('author_url'),
     init.prompt('licenses', 'MIT'),
-    init.prompt('version', '0.1.0'),
+    init.prompt('version', '0.0.0'),
     init.prompt('node_version', '>= 0.10.0'),
   ], function(err, props){
     props.keywords = [];
     props.devDependencies = {
-      'grunt': '~0.4.0',
+      'grunt': '~0.4.1',
       'grunt-contrib-qunit': '~0.2.0',
       'grunt-contrib-jshint': '~0.1.1',
       'grunt-contrib-connect': '~0.1.2',
